@@ -1,0 +1,53 @@
+.nav {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   background-color: #1f75be;
+   color: white;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+   flex-wrap: wrap;
+}
+.animeInput {
+   background-color: #3276bd;
+   border: 2px solid white;
+   padding: 10px 20px;
+   margin: 10px;
+   outline: white;
+   color: white;
+   border-radius: 4px;
+   font-size: 15px;
+   width: 300px;
+}
+@media (max-width: 450px) {
+   .animeInput {
+      width: 150px;
+   }
+}
+::placeholder {
+   color: white;
+   opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: white;
+}
+
+::-ms-input-placeholder {
+   /* Microsoft Edge */
+   color: white;
+}
+.animeButton {
+   background-color: #3276bd;
+   border: 2px solid white;
+   padding: 10px 20px;
+   margin: 10px;
+   outline: white;
+   color: white;
+   border-radius: 4px;
+   font-size: 15px;
+   cursor: pointer;
+}
